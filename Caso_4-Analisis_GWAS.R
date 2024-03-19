@@ -73,9 +73,7 @@ GWAS_PCA_mvp <- MVP(
   geno = geno_data, 
   map = map_info,
   method =  c("MLM"),
-  nPC.GLM = 5, 
-  nPC.MLM = 5, 
-  nPC.FarmCPU = 5)
+  nPC.MLM = 5)
 # MLM = Mixed Linear Model
 # nPC = número de "principal components" agregados como "fixed effects"
 
@@ -95,9 +93,7 @@ GWAS_Kin_mvp <- MVP(
   geno = geno_data, 
   map = map_info,
   method =  c("MLM"),
-  nPC.GLM = 0,
-  nPC.MLM = 0, 
-  nPC.FarmCPU = 0,
+  nPC.MLM = 0,
   K = kinship)
 
 
@@ -111,7 +107,5 @@ GWAS_PCA_Kin_mvp <- MVP(
   geno = geno_data, 
   map = map_info,
   method =  c("MLM"),
-  nPC.GLM = 5,
-  nPC.MLM = 5, 
-  nPC.FarmCPU = 5,
+  nPC.MLM = 5,
   K = kinship)
