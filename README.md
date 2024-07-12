@@ -1,4 +1,4 @@
-### Caso 4: Análisis GWAS
+### Análisis GWAS
 
 Este repositorio contiene códigos de programación en lenguaje R para realizar un análisis GWAS con el paquete [rMVP](https://cran.r-project.org/package=rMVP).
 
